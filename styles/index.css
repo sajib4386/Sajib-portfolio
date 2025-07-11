@@ -75,6 +75,9 @@ nav ul li a {
     width: 584px;
 }
 /*shared style*/
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     background-color: #FFF8F3;
 }
@@ -101,6 +104,10 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /*section-body style*/
 .body {
    border-radius: 10px;
@@ -114,4 +121,14 @@ main {
 }
 .item-description{
     font-weight: 600;
+}
+/*card styles*/
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
