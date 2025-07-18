@@ -179,3 +179,55 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 
 
+/*responsive styles*/
+
+@media screen and (max-width:576px){
+    .banner,
+    nav,
+    nav ul,
+    .card-container,
+    .resume-container,
+    footer{
+        flex-direction: column;
+    }
+  .banner{
+    margin-left: 75px;
+  }
+  .banner-profile{
+    width: 100%;
+  }
+  nav ul,
+  .nav-title{
+    margin: auto;
+  }
+  nav ul li{
+    margin-bottom: 10px;
+  }
+  .nav-title{
+    margin-bottom: 30px;
+  }
+  .btn-1st{
+    margin-bottom: 15px;
+  }
+  .body,
+  footer{
+    padding: 20px;
+  }
+  .about-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .resume-column-title{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .footer-column{
+    width: 100%;
+  }
+  footer input[type="text"], footer input[type="email"], footer textarea{
+    width: calc(100% - 40px);
+    height: 50px;
+  }
+}
+
+
